@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.2rem;
+	background: rgba(0, 0, 0, 0.6) !important;
+	padding: 20px 0;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #fff;
+	padding-left: 20px;
+}
+
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+
+/* BACKGROUND */
+.heading-content {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.heading-content h5 {
+	font-size: 4rem;
+	font-weight: 300;
+	color: #111;
+	font-family: monospace;
+}
+
+.heading-content h1 {
+	font-size: 5rem;
+	font-weight: bolder;
+	color: #111;
+
+	font-family: 'Montserrat';
+}
+.heading-content p {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #3a3b33;
+
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
