@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
 
-* {
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden;
+	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -27,16 +27,16 @@
 .navbar .navbar-nav .nav-link .active,
 .navbar .navbar-nav .nav-link:hover {
 	color: #7000f2;
-	/* color: #1ebba3; */
 }
 
 /* BACKGROUND */
 
-.background {
-	background: url(./img/DSC03016_2.jpg) no-repeat center center/cover;
+/* #showcase {
+	background: url('./img/DSC03016_2.jpg') no-repeat center center/cover;
 	height: 100vh;
-}
-.heading-content {
+} */
+
+/* .heading-content {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -44,20 +44,20 @@
 	align-items: center;
 	height: 100%;
 	padding: 0 2rem;
-	position: absolute;
-	top: 0;
+	/* OVERLAY */
+/* position: absolute;
+	top: 65px;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* .heading-content {
+} */
+.heading-content {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	width: 100%;
 	max-width: 100%;
-} */
+}
 
 .heading-content h5 {
 	font-size: 3rem;
@@ -79,4 +79,27 @@
 	color: #4c00a4;
 	word-spacing: 5px;
 	letter-spacing: 2px;
+}
+
+/* ABOUT */
+#about-me .btn {
+	border: 2px solid transparent;
+	width: 40%;
+	padding: 15px 22px;
+	background: #000;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#about-me .btn a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#about-me .btn:hover {
+	border: 2px solid #4c00a4;
+	cursor: pointer;
 }
